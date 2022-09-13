@@ -9,9 +9,9 @@ This website only contains HTML and CSS.
 Home Page 
 
 
-<img src="/Big-Stream/images/BigStream_HomePage.png?raw=true" alt="Home Page" title="Home Page" style="width: 50%;">
+<img src="/Big-Stream/images/BigStream_HomePage.png?raw=true" alt="Home Page" title="Home Page" style="width: 100%;">
 
 Random Page
 
 
-<img src="/Big-Stream/images/BigStream- Website.png?raw=true" alt="Random Page" title="Random Page" style="width: 50%;">
+<img src="/Big-Stream/images/BigStream- Website.png?raw=true" alt="Random Page" title="Random Page" style="width: 100%;">
