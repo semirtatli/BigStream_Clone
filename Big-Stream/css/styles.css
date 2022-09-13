@@ -1,0 +1,410 @@
+body {
+  text-align: center;
+}
+
+ hr {
+  opacity: 1;
+  width : 50px;
+  margin: 2% auto;
+  border-top: solid 1px red;
+}
+
+ .bs-bar {
+   position: fixed;
+   margin-left: 10px;
+   margin-top: 10px;
+   width: 110px;
+   height: 60px;
+   background-color: black;
+   color: #fff;
+   font-family: "Raleway", arial, sans-serif;
+   font-weight: 800;
+   text-align: left;
+   line-height: 0.5;
+   opacity: 0.85;
+ }
+
+ .bs-bar-title {
+   display: block;
+   font-family: "Raleway", arial, sans-serif;
+   font-weight: 800;
+   line-height: 0.80;
+   font-size: 16px;
+   padding: 18px 18px;
+   letter-spacing: 0.5px;
+ }
+
+ .bs-menu {
+   position: fixed;
+   margin-left: 120px;
+   margin-top: 10px;
+   width: 60px;
+   height: 60px;
+   background-color: black;
+   color: #fff;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 800;
+   opacity: 0.85;
+   border-left: 1px solid rgba(255, 255, 255, .1);
+ }
+
+ .menu-icon {
+   margin: 22px 18px 18px 16px;
+   opacity: 0.85;
+ }
+
+ .bs-menu:hover>.menu-icon>.line {
+   background-color: rgba(255, 255, 255, .3);
+   transition-duration: 0.3s;
+ }
+
+ .menu-icon>.line {
+   background-color: #fff;
+   height: 3px;
+   display: block;
+ }
+
+ .menu-icon>.line+.line {
+   margin-top: 3px;
+ }
+
+
+ .container-fluid {
+   padding: 7% 15%;
+ }
+
+
+ .overall-stream {
+
+   color: white;
+   height: 300px;
+   width: 500px;
+   border: 1px solid white;
+ }
+
+ .title {
+   background-image: url("../images/pattern-bg-1.jpg");
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   color: white;
+
+ }
+
+ .main-title {
+   z-index: 9;
+   position: absolute;
+   line-height: 1.5;
+   font-family: "Raleway", arial, sans-serif;
+   font-weight: 800;
+  font-size: 4.5vw;
+   letter-spacing: 0.1em;
+   color: rgba(255, 255, 255, .85);
+ }
+
+ .main-p{
+   z-index: 9;
+   text-align: center;
+   padding-top: 50px;
+   font-size: 1.3em;
+   line-height: 1.5;
+   letter-spacing: 1.6px;
+   font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: normal;
+color: rgba(255, 255, 255, .8);
+ }
+
+ .main-h3{
+   position: relative;
+   text-align: center;
+   line-height: 1.5;
+   padding-top: 150px;
+   font-size: 0.75em;
+   letter-spacing: 2px;
+   color: rgba(255, 255, 255, .7);
+
+ }
+
+ .statue {
+ position: absolute;
+ padding-left: 460px;
+ }
+
+
+
+.story {
+  padding: 140px 0 20px;
+  background-color: #F8F8F8;
+}
+
+.our-story-h2 {
+
+  line-height: 1.2;
+  font-size: 2rem;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.our-story-h4 {
+  font-size: 0.9rem;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: normal;
+color: #555555;
+letter-spacing: 0.3px;
+margin: 15px auto 5px;
+}
+
+.our-story-button {
+  margin: 2% auto;
+  background-color: #F8F8F8;
+  color: #000000;
+  border-radius: 20px;
+  width: 100px;
+  border: 1px solid #000000;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+
+.our-story-p {
+  margin: 2% auto 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+  font-size: 15px;
+  width: 50%;
+  color: #888;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 300;
+}
+
+ .our-story-img {
+  margin: 50px 120px 0 0;
+  width: 800px;
+    height: 275px;
+    object-fit: cover;
+    object-position: 50% 20%;
+    overflow: hidden;
+
+
+}
+
+.past {
+  text-align: center;
+}
+
+.past-h3 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat", arial, sans-serif;
+  font-weight: 700;
+}
+
+.past-i {
+  padding: 0 %2;
+  color: red;
+}
+
+.past-p {
+  padding: 0 %2;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 300;
+}
+
+.services {
+  background-color: grey;
+
+  background-size: cover;
+  text-align: center;
+  padding: 3% 7%;
+  margin: 0;
+}
+
+.service-titles {
+padding: 2%;
+
+}
+
+.services-h3{
+  line-height: 1.2;
+  font-size: 2rem;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.services-p {
+  font-size: 0.9rem;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: normal;
+color: #fff;
+letter-spacing: 0.3px;
+margin: 15px auto 5px;
+}
+
+
+.service-text {
+
+
+padding: 3% 15%;
+color: #fff;
+  text-align: center;
+
+  display: inline-block;
+}
+
+.service-titles{
+
+background-color: #fff;
+padding: 0 12px;
+
+}
+
+.service-item {
+   padding: 5% 7%;
+  background-color: #fff;
+  border-top: 1px solid rgba(0,0,0, .05);
+    border-left: 1px solid rgba(0,0,0, .05);
+    background-color: rgba(0,0,0, .05);
+
+}
+
+.services-i {
+  padding: 8% 3%;
+  font-size: 1.8rem;
+  color: red;
+}
+
+.services-h5 {
+  font-size: 12px;
+  color: #000;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+
+}
+
+.footer{
+  background-color:#222222;
+  color: #707070;
+  font-family: "Raleway", arial, sans-serif;
+  font-weight: 700;
+  line-height: 0.4;
+  padding: 3.5% 10%;
+  font-size: 12px;
+
+}
+
+.foot-brands{
+  padding: 1% 0;
+}
+
+.footer-bs {
+  font-weight: 700;
+  color: #aaaaaa;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+}
+
+.footer-year{
+  font-family: "Montserrat", arial, sans-serif;
+  font-weight: 400;
+  color: #aaaaaa;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+}
+
+.footer-italic {
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: 400;
+color:#aaaaaa;
+font-size: 16px;
+}
+
+.footer-brand {
+  padding: 1% 1%;
+  border-radius: 50%;
+  color: #474747;
+  border: 1px solid rgba(255,255,255, .07);
+
+}
+
+.footer-f{
+  padding: 1% 1.15%;
+}
+
+.footer-brand:hover {
+  color: #ccc;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+@media only screen and (max-width: 780px) {
+ .overall-stream {
+   height: 200px;
+   width: 350px;
+ }
+
+ .main-p {
+   padding-top: 30px;
+ }
+
+ .main-h3 {
+   padding-top: 70px;
+ }
+
+ .statue {
+   display: none;
+ }
+
+  .our-story-img{
+   margin: 25px 0 0 0;
+   width: 300px;
+     height: 125px;
+     object-fit: cover;
+     object-position: 50% 30%;
+     overflow: hidden;
+ }
+}
+
+@media only screen and (max-width: 400px) {
+.overall-stream {
+  height: 150px;
+  width: 275px;
+}
+
+.main-p {
+  padding-top: 20px;
+}
+
+.main-h3 {
+  padding-top: 50px;
+}
+
+.statue {
+  display: none;
+}
+
+ .our-story-img{
+
+  width: 300px;
+
+    object-fit: cover;
+    /* object-position: 50% 20%; */
+    overflow: hidden;
+}
+
+}
+
+
+#our-story {
+
+}
